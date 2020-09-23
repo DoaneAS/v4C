@@ -1,0 +1,27 @@
+Package: v4C
+Type: Package
+Title: Virtual 4C tools
+Version: 0.1.0
+Author: Ashley Stephen Doane
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Remotes: 
+  github::mskilab/gUtils,
+  bioc::3.9/GenomicRanges,
+  bioc::3.9/IRanges,
+  bioc::3.9/S4Vectors,
+  bioc::3.9/GenomeInfoDb,
+  bioc::3.9/BiocGenerics,
+  bioc::3.9/rtracklayer
+  bioc::3.9/InteractionSet
+Depends: R (>= 3.5.0), GenomicRanges, SummarizedExperiment
+LinkingTo: Rcpp
+Imports: 
+    Rcpp, InteractionSet, RCurl, rtracklayer, BiocGenerics, diffloop, GenomicRanges,
+    data.table, IRanges, S4Vectors (>= 0.19.4), GenomeInfoDb, methods, Matrix,
+    SummarizedExperiment, GenomicInteractions, InteractionSet
+RoxygenNote: 7.1.1

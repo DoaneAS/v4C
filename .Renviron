@@ -1,0 +1,2 @@
+R_MAX_VSIZE=200Gb
+PATH="/usr/local/clang7/bin:${PATH}"

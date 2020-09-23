@@ -1,0 +1,13 @@
+hg38s <- new("Seqinfo", seqnames = c("chr1", "chr2", "chr3", "chr4", "chr5",
+"chr6", "chr7", "chr8", "chr9", "chr10", "chr11", "chr12", "chr13",
+"chr14", "chr15", "chr16", "chr17", "chr18", "chr19", "chr20",
+"chr21", "chr22", "chrX"), seqlengths = c(248956422L, 242193529L,
+198295559L, 190214555L, 181538259L, 170805979L, 159345973L, 145138636L,
+138394717L, 133797422L, 135086622L, 133275309L, 114364328L, 107043718L,
+101991189L, 90338345L, 83257441L, 80373285L, 58617616L, 64444167L,
+46709983L, 50818468L, 156040895L), is_circular = c(NA, NA, NA,
+NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,
+NA, NA, NA, NA), genome = c("hg38", "hg38", "hg38", "hg38", "hg38",
+"hg38", "hg38", "hg38", "hg38", "hg38", "hg38", "hg38", "hg38",
+"hg38", "hg38", "hg38", "hg38", "hg38", "hg38", "hg38", "hg38",
+"hg38", "hg38"))

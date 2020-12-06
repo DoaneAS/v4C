@@ -248,6 +248,12 @@ getHicSparse = function(hic, gr, norm = "KR", type = 'BP', res = 1e4, mc.cores =
   out = out[!is.na(counts), ]
   if (!nrow(out))
     stop('Query resulted in no output, please check .hic file or input coordinates')
+
+  out[, `:=`(end1, start1 + res - 1)]
+  out[, `:=`(end2, start2 + res - 1)]
+  out <- out[, c("chr1", "start1", "end1", "chr2", "start2",
+                 "end2", "counts")]
+  out <- unique(out)
   return(out)
 }
 
